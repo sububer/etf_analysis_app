@@ -12,9 +12,10 @@ See full analysis details in the notebook [etf_analyzer.ipynb](app/etf_analyzer.
 
 #### DataSets  
 
-A SQL database file [etf.db](data/etf.db) provides all the price data for analysis. Specifically, for each stock, the following data is included from `2016-12-16` to `2020-12-04`:  
-    - contains data: `time | open | high | low | close | volume | daily_returns`
-    - for stocks `GDOT, GS, PYPL, SQ`
+A SQL database file [etf.db](data/etf.db) provides all the price data for analysis.  
+    - pricing data from `2016-12-16` to `2020-12-04`
+    - each stock table contains data: `time | open | high | low | close | volume | daily_returns`
+    - stocks `GDOT, GS, PYPL, SQ`
 
 #### Assumptions
 - The time period analyzed will be from Dec 2016 - Dec 2020
