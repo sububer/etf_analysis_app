@@ -26,13 +26,13 @@ A SQL database file [etf.db](data/etf.db) provides all the price data for analys
 First, a single stock, PYPL was analyzed for cumulative returns. Over the period from 2016-2020, the cumulative returns were up to nearly 5.4 from the baseline of 1 in 2016.  
 ![PYPL Cumulative Returns](media/ppal_cum_returns.png)  
 
-**ETF Fund**
+**ETF Fund**  
 Next, the cumulative returns were calculated for the ETF portfolio in aggregate, using the mean daily returns for each day for each of the four stocks `GDOT, GS, PYPL, SQ`. The ETF Portfolio cumulative returns were up approx 4.3 from the baseline of 1 in 2016.  
 ![ETF Portfolio Cumulative Returns](media/etf_cum_returns.png)  
 
 **Voila Web Application Run**  
 Here is a run of the notebook using the voila library. See how it launches in a web browser, and you can scroll and view the notebook that way.  
-![Voila](media/voila_recording.mov)  
+![Voila](media/voila_recording.gif)  
 
 See full analysis and interactive charts in the notebook [etf_analyzer.ipynb](app/etf_analyzer.ipynb)  
 
